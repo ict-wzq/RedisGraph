@@ -4,9 +4,11 @@
 * This file is available under the Redis Labs Source Available License Agreement
 */
 
-#include "proc_bfs.h"
-#include "proc_labels.h"
 #include "proc_pagerank.h"
+#include "proc_bfs.h"
+#include "proc_sssp.h"
+#include "proc_cc.h"
+#include "proc_labels.h"
 #include "proc_relations.h"
 #include "proc_procedures.h"
 #include "proc_property_keys.h"
